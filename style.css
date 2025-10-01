@@ -1,0 +1,119 @@
+.nav-link {
+  color: black !important;
+}
+
+.btn-green-outline {
+  background-color: transparent;
+  color: #4CAF4F;
+}
+
+.btn-green {
+  background-color: #4CAF4F;
+  border-color: #4CAF4F;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4D4D4D;
+}
+
+p {
+  color: #717171;
+}
+
+.text-green {
+  color: #4CAF4F;
+}
+
+.btn {
+  border-radius: 4px !important;
+}
+
+.col-md-3.text-end .btn-green {
+  border-radius: 0.375rem !important;
+}
+
+p.text-black {
+  color: black !important;
+}
+
+.light-grey {
+  background-color: #F5F7FA;
+}
+
+
+.dark-grey {
+  color: #263238;
+}
+
+.footer-bg {
+  background-color: #263238;
+}
+
+.logo-color {
+  color: #263238;
+}
+
+.footer-bg,
+.footer-bg a,
+.footer-bg h5,
+.footer-bg p {
+  color: #ffffff !important;
+}
+
+#newsletter1 {
+  background-color: #515B60;
+  border: none;
+}
+
+#newsletter1::placeholder {
+  color: #D9DBE1;
+}
+
+.social-icons img {
+  margin-right: 15px;
+}
+
+
+.card-title {
+  color: #717171;
+
+
+}
+
+.card-body {
+
+  margin-top: -25%;
+  flex: unset;
+  width: 350px;
+  display: inline-block;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.feature {
+  max-width: 280px;
+  margin: 0 auto;  /*centered */
+  border-radius: 10px;
+}
+
+@media (min-width: 1300px) {
+    .text-content {
+        margin-left: -60px !important;
+    }
+}
+
+@media (max-width: 1299.98px) {
+    .text-content {
+        margin-left: 0 !important;
+    }
+}
